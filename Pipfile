@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+setuptools = "*"
+wheel = "*"
+twine = "*"
+heropdf = "*"
+requests = "*"
+beautifulsoup4 = "*"
+selenium = "*"
+playwright = "*"
+pypdf2 = "*"
+openpyxl = "*"
+numpy = "*"
+django = "*"
+django-tastypie = "*"
+gunicorn = "*"
+whitenoise = "*"
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.13"
